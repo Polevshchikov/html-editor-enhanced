@@ -17,11 +17,11 @@ dependencies:
   visibility_detector: ^0.4.0+2
   # plugin to get when the keyboard is hidden via back (Android)
   # or "done" (iOS) to reset the editor's height
-  flutter_keyboard_visibility:
-  git:
-    url: https://github.com/MisterJimson/flutter_keyboard_visibility
-    path: flutter_keyboard_visibility
-    ref: 1fd23e56090e61de40d88cb0aee56077da99f4a3
+  flutter_keyboard_visibility: # outdated
+    git:
+      url: https://github.com/MisterJimson/flutter_keyboard_visibility
+      path: flutter_keyboard_visibility
+      ref: 1fd23e56090e61de40d88cb0aee56077da99f4a3
   # plugin to show a color picker for foreground/highlight color
   flex_color_picker: ^3.4.1
   # plugin to get files from filesystem
